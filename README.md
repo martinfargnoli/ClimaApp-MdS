@@ -7,5 +7,5 @@ Pequeño proyecto en Java usado para análisis de codigo en SonarQube (hosteado 
 ## Instrucciones
 1. Descargar SonarQube.
 2. Crear una BD en PostgreSQL llamada "sonarqube".
-3. Instalar y hostear SonarQube en PostgreSQL (siguiendo la imagen de configuración en el repo y las instrucciones en https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/introduction/).
-4. Una vez inicializado SonarQube, levantar y analizar localmente este proyecto (siguiendo las instrucciones dadas por SonarQube).
+3. Instalar y hostear SonarQube en PostgreSQL (siguiendo la configuración de sonar.properties de la imagen del repo y las instrucciones en https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/introduction/).
+4. Una vez inicializado SonarQube, levantar y analizar localmente este proyecto (siguiendo la configuración de sonar-scanner.properties en la imagen del repo y las instrucciones dadas por SonarQube).
